@@ -5,7 +5,7 @@ const dishes = [
     price: 10,
     rating: 4.5,
     sales: 360,
-    image: "/src/assets/dishes/burger.jpg",
+    image: "/images/burger.jpg",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const dishes = [
     price: 25,
     rating: 4.1,
     sales: 110,
-    image: "/src/assets/dishes/pizza.jpg",
+    image: "/images/pizza.jpg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const dishes = [
     price: 15,
     rating: 4.3,
     sales: 100,
-    image: "/src/assets/dishes/sushi.jpg",
+    image: "/images/sushi.jpg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const dishes = [
     price: 12,
     rating: 4.6,
     sales: 200,
-    image: "/src/assets/dishes/chicken.jpg",
+    image: "/images/chicken.jpg",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const dishes = [
     price: 5,
     rating: 4.2,
     sales: 90,
-    image: "/src/assets/dishes/coffee.jpg",
+    image: "/images/coffee.jpg",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const dishes = [
     price: 30,
     rating: 4.7,
     sales: 80,
-    image: "/src/assets/dishes/seafood.jpg",
+    image: "/images/seafood.jpg",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const dishes = [
     price: 8,
     rating: 4.4,
     sales: 70,
-    image: "/src/assets/dishes/cake.jpg",
+    image: "/images/cake.jpg",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const dishes = [
     price: 6,
     rating: 4.5,
     sales: 120,
-    image: "/src/assets/dishes/icecream.jpg",
+    image: "/images/icecream.jpg",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const dishes = [
     price: 4,
     rating: 4.3,
     sales: 150,
-    image: "/src/assets/dishes/fries.jpg",
+    image: "/images/fries.jpg",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const dishes = [
     price: 9,
     rating: 4.1,
     sales: 60,
-    image: "/src/assets/dishes/sandwich.jpg",
+    image: "/images/sandwich.jpg",
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const dishes = [
     price: 7,
     rating: 4.6,
     sales: 50,
-    image: "/src/assets/dishes/pancake.jpg",
+    image: "/images/pancake.jpg",
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const dishes = [
     price: 3,
     rating: 4.2,
     sales: 40,
-    image: "/src/assets/dishes/donut.jpg",
+    image: "/images/donut.jpg",
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ const dishes = [
     price: 8,
     rating: 4.5,
     sales: 75,
-    image: "/src/assets/dishes/taco.jpg",
+    image: "/images/taco.jpg",
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ const dishes = [
     price: 11,
     rating: 4.4,
     sales: 65,
-    image: "/src/assets/dishes/noodles.jpg",
+    image: "/images/noodles.jpg",
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ const dishes = [
     price: 35,
     rating: 4.8,
     sales: 30,
-    image: "/src/assets/dishes/steak.jpg",
+    image: "/images/steak.jpg",
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ const dishes = [
     price: 9,
     rating: 4.3,
     sales: 55,
-    image: "/src/assets/dishes/salad.jpg",
+    image: "/images/salad.jpg",
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ const dishes = [
     price: 6,
     rating: 4.6,
     sales: 90,
-    image: "/src/assets/dishes/milkshake.jpg",
+    image: "/images/milkshake.jpg",
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ const dishes = [
     price: 5,
     rating: 4.2,
     sales: 45,
-    image: "/src/assets/dishes/croissant.jpg",
+    image: "/images/croissant.jpg",
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ const dishes = [
     price: 20,
     rating: 4.5,
     sales: 85,
-    image: "/src/assets/dishes/full pizza.jpg",
+    image: "/images/full-pizza.jpg", // ⚠️ make sure file name is renamed
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ const dishes = [
     price: 18,
     rating: 4.7,
     sales: 95,
-    image: "/src/assets/dishes/combo.jpg",
+    image: "/images/combo.jpg",
   },
 ];
 

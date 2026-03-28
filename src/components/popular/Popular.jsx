@@ -1,14 +1,16 @@
 import styles from "./Popular.module.css";
 import PopularCard from "./PopularCard";
-import fishBurger from "../../assets/images/fishBurger.jpg";
-import beefBurger from "../../assets/images/beefBurger.jpg";
-import cheeseBurger from "../../assets/images/cheeseBurger.jpg";
 
 const Popular = ({ addToCart }) => {
   const dishes = [
-    { id: 1, name: "FishBurger", price: 5.59, image: fishBurger },
-    { id: 2, name: "BeefBurger", price: 5.59, image: beefBurger },
-    { id: 3, name: "CheeseBurger", price: 5.59, image: cheeseBurger },
+    { id: 1, name: "FishBurger", price: 5.59, image: "/images/fishBurger.jpg" },
+    { id: 2, name: "BeefBurger", price: 5.59, image: "/images/beefBurger.jpg" },
+    {
+      id: 3,
+      name: "CheeseBurger",
+      price: 5.59,
+      image: "/images/cheeseBurger.jpg",
+    },
   ];
 
   return (

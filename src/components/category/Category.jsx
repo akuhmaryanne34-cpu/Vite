@@ -1,21 +1,14 @@
 import styles from "./Category.module.css";
 import CategoryCard from "./CategoryCard";
 
-import bakery from "../../assets/icons/bakery.png";
-import burger from "../../assets/icons/burger.png";
-import coffeeCup from "../../assets/icons/coffee-cup.png";
-import chickenLeg from "../../assets/icons/chicken-leg.png";
-import pizzaSlice from "../../assets/icons/pizza-slice.png";
-import seafood from "../../assets/icons/seafood.png";
-
 const Category = () => {
   const categories = [
-    { name: "Bakery", image: bakery },
-    { name: "Burger", image: burger },
-    { name: "Beverage", image: coffeeCup},
-    { name: "Chicken-leg", image: chickenLeg },
-    { name: "Pizza-slice", image: pizzaSlice},
-    { name: "Seafood", image: seafood },
+    { name: "Bakery", image: "/icons/bakery.png" },
+    { name: "Burger", image: "/icons/burger.png" },
+    { name: "Beverage", image: "/icons/coffee-cup.png" },
+    { name: "Chicken", image: "/icons/chicken-leg.png" },
+    { name: "Pizza", image: "/icons/pizza-slice.png" },
+    { name: "Seafood", image: "/icons/seafood.png" },
   ];
 
   return (

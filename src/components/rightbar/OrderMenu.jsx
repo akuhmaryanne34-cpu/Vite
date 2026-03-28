@@ -1,7 +1,4 @@
 import styles from "./OrderMenu.module.css";
-import pizza from "../../assets/icons/pizza-slice.png";
-import burger from "../../assets/icons/burger.png";
-
 
 const OrderMenu = ({ cart = [], removeFromCart }) => {
   const total = cart.reduce((acc, item) => acc + item.price, 0);
@@ -20,7 +17,6 @@ const OrderMenu = ({ cart = [], removeFromCart }) => {
               <span>${item.price}</span>
             </div>
 
-            {/* 🔥 Remove Button */}
             <button
               onClick={() => removeFromCart(index)}
               className={styles.removeBtn}
