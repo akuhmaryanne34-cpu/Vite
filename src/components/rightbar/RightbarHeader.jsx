@@ -1,6 +1,5 @@
 import styles from "./RightbarHeader.module.css";
 import { MessageText1, Notification, Setting2 } from "iconsax-react";
-import profile from "../../assets/icons/burger.png";
 
 const RightbarHeader = () => {
   return (
@@ -11,7 +10,7 @@ const RightbarHeader = () => {
         <Setting2 size="20" />
       </div>
 
-      <img src={profile} alt="profile" className={styles.profile} />
+      <img src="/icons/burger.png" alt="profile" className={styles.profile} />
     </div>
   );
 };
