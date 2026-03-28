@@ -1,19 +1,12 @@
 import styles from "./CategoryFilter.module.css";
 
-import burger from "../../assets/icons/burger.png";
-import pizza from "../../assets/icons/pizza-slice.png";
-import coffee from "../../assets/icons/coffee-cup.png";
-import chicken from "../../assets/icons/chicken-leg.png";
-import seafood from "../../assets/icons/seafood.png";
-import bakery from "../../assets/icons/bakery.png";
-
 const categories = [
-  { id: 1, name: "Burger", image: burger, isNew: true },
-  { id: 2, name: "Pizza", image: pizza, isNew: true },
-  { id: 3, name: "Coffee", image: coffee, isNew: false },
-  { id: 4, name: "Chicken", image: chicken, isNew: true },
-  { id: 5, name: "Seafood", image: seafood, isNew: false },
-  { id: 6, name: "Bakery", image: bakery, isNew: true },
+  { id: 1, name: "Burger", image: "/icons/burger.png", isNew: true },
+  { id: 2, name: "Pizza", image: "/icons/pizza-slice.png", isNew: true },
+  { id: 3, name: "Coffee", image: "/icons/coffee-cup.png", isNew: false },
+  { id: 4, name: "Chicken", image: "/icons/chicken-leg.png", isNew: true },
+  { id: 5, name: "Seafood", image: "/icons/seafood.png", isNew: false },
+  { id: 6, name: "Bakery", image: "/icons/bakery.png", isNew: true },
 ];
 
 function CategoryFilter() {
